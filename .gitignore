@@ -1,0 +1,64 @@
+# Unreal Engine standard ignores
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Unreal user/project specific files
+.vscode/
+.vs/
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+
+# Build folders
+Build/
+Script/
+obj/
+*.pdb
+*.idb
+*.ipch
+
+# Crash and log files
+*.log
+*.vspscc
+*.sdf
+*.pdb
+*.opendb
+
+# Backup/Autosave
+*_BuiltData.uasset
+*_BuiltData.uexp
+*.bak
+*.tmp
+*.autobak
+
+# Ignore World Partition generated data (regenerates automatically)
+Content/__ExternalActors__/
+Content/__ExternalObjects__/
+
+# Ignore local launcher data
+*.uprojectdirs
+*.uplugindirs
+
+# Mac specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
+# Keep these tracked explicitly
+!.gitignore
+!*.uproject
+!Config/
+!Content/
+!Source/
+!Plugins/
